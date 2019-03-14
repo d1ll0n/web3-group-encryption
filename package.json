@@ -1,6 +1,6 @@
 {
   "name": "web3-group-encryption",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple library for encrypted group messaging with web3 addresses",
   "homepage": "https://github.com/d1ll0n/web3-encrypt",
   "repository": {
