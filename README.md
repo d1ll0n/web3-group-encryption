@@ -64,7 +64,7 @@ This library provides support for:
 
     // Serialization
     const serialBob = await bob.encryptSerialized()
-    const bob2 = await User.decryptAndDeserialize(web3, bobAccount, serialBob)
+    const serialBob = await User.decryptAndDeserialize(web3, bobAccount, serialBob)
     const serialBobGroup = serialBob.groupManager.getGroup('abc-group')
     const serialBobDecipher = serialBobGroup.decrypt(groupCipher)
     console.log(serialBobDecipher == groupMessage)
