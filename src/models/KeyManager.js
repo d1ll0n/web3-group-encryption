@@ -32,7 +32,7 @@ class KeyManager {
     return {
       address: this.user.address,
       pubKey: pubKey,
-      pubKeySignature: signature.signature
+      pubKeySignature: signature.signature || signature
     }
   }
 
