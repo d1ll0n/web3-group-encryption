@@ -28,7 +28,7 @@ This library provides support for:
     const bobAccount = web3.eth.accounts.create()
     const bob = new User(web3, bobAccount)
     const aliceAccount = web3.eth.accounts.create()
-    const alice = web3.eth.accounts.create()
+    const alice = new User(web3, aliceAccount)
 
     // key exchange
     const bobKeySig = await bob.keyManager.signPublicKey()  
